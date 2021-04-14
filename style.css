@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#f3ebf5;
+    font-family: 'Baloo 2', cursive;
+}
+span{
+    color: azure;
+}
+header nav{
+    background-color: rgb(171, 156, 187);
+}
+header nav a{
+    color: black;
+}
+nav li a{
+    color: black;
+}
+nav li a:hover{
+    color:black;
+    transform: scale(1,2);
+    margin-top: 10px;
+}
+nav a {
+    background-color:  rgb(171, 156, 187);
+    
+    
+}
+h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 90px;
+}
+.article-index{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.imagen-logo{
+    width: 150px;
+}
+.container{
+    margin-top: 30px;
+    width: 78%;
+}
+
+.info-perro{
+    width: 200px;
+    height: 250px;
+}
+
+h5{
+    font-weight: bold;
+}
+.foto-consejo{
+ height: 150px;
+ width: 150px;
+}
+.enviar{
+    align-items: center;
+}
+.carbon{
+    height: 500px;
+}
+.logo-refugio{
+    height: 150px;
+    width: 150px;
+}
+.card-color{
+    background-color: #f3ebf5;
+}
+.div{
+    margin-top: 15px;
+}
+.div-acpla{
+ width: 75%;
+ text-align: center;
+}
+.button{
+color: blueviolet;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media (max-width: 360px) {
+    h1{
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        font-size: 50px;
+    }
+    .article-index {
+        display: flex;
+        flex-direction:column;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 30px;
+        width: 78%;
+    }
+  }
+
